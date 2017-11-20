@@ -1,0 +1,122 @@
+.background-img {
+  position: absolute;
+  z-index: -1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+}
+.content-cont {
+
+  height: 140px;
+  display: flex;
+  align-items: center;
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  z-index: 1;
+  font: 45px Courier New, sans-serif;
+  color: rgba(232, 236, 197, 0.9);
+  background-color: rgba(43, 77, 54, 0.9);
+  height: 100px;
+  width: 100%;
+  margin-bottom: 40px;
+  border-bottom: 2px solid rgb(232, 236, 197);
+  box-shadow: 1px 1px 5px #888888;
+}
+.box-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: rgba(232, 236, 197, 0.9);
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.links a {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 30px;
+  font: 45px Courier New, sans-serif;
+  color: rgb(89, 97, 89);
+  font-weight: 400;
+}
+@keyframes .box {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+footer {
+  margin-top: 80px;
+  display: flex;
+  /*position: absolute;*/
+  justify-content: space-between;
+  background: rgba(43, 77, 54, 0.9);
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font: 14px Courier New, sans-serif;
+  color: rgba(232, 236, 197, 0.9);
+}
+
+.user p{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  font: 14px Courier New, sans-serif;
+}
+
+.options a{
+  color: rgba(232, 236, 197, 0.9);
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 4px;
+}
+
+.user a{
+  text-decoration: none;
+  font: 14px Courier New, sans-serif;
+  color: rgba(232, 236, 197, 0.9)
+}
+
+a:hover{
+  color: black;
+}
